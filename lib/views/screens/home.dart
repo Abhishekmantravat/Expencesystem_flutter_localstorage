@@ -36,7 +36,7 @@ class _homepageState extends State<homepage> {
         "subtitle": item["subtitle"],
         "amount": item["amount"],
       };
-    }).toList();
+    }).toList(); 
     setState(() {
       _items = data.reversed.toList();
       if (selectedType == "Expense") {
